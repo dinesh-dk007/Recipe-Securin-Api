@@ -30,7 +30,7 @@ public class RecipeController {
         return new ResponseEntity<>(recipeService.loadRecipe(recipe), HttpStatus.CREATED);
     }
 
-    @GetMapping({"/all"})
+    @GetMapping("/all")
     public ResponseEntity<List<Recipe>> getAllRecipes(){
         return new ResponseEntity<>(recipeService.getAllRecipe(),HttpStatus.OK);
     }
