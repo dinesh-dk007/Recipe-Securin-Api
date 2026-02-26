@@ -1,4 +1,4 @@
-🍽️ Recipe Application API
+***🍽️ Recipe Application API***
 
 A Spring Boot REST API for managing recipes, including cooking time, cuisine type, description, and nutritional information. This API allows loading, storing, retrieving, and managing recipe data using a relational database.
 
