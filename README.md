@@ -40,6 +40,7 @@ Maven
 # 🚀 API Endpoints
 
 1️⃣ POST ```/recipes```
+
 ✅ Purpose
 
 Add a new recipe to the database.
@@ -99,6 +100,7 @@ total_time = prep_time + cook_time
 }
 ```
 2️⃣ GET ```/recipes/top```
+
 ✅ Purpose
 
 Retrieve top-rated recipes.
