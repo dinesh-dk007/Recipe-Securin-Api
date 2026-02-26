@@ -1,24 +1,25 @@
-***🍽️ Recipe Application API***
+🍽️ Recipe Data Collection & REST API
 
-A Spring Boot REST API for managing recipes, including cooking time, cuisine type, description, and nutritional information. This API allows loading, storing, retrieving, and managing recipe data using a relational database.
+A Spring Boot REST API that parses recipe data from a JSON file, stores it in a database, and provides endpoints to manage and query recipes.
 
-🚀 Features
+This project demonstrates:
 
-📥 Load recipe data from JSON
+JSON Parsing
 
-➕ Add new recipes
+Database Integration
 
-📖 Get all recipes
+REST API Development
 
-🔍 Get recipe by ID
 
-🗑️ Delete recipe
+📌 Objective
 
-📝 Update recipe
+This application:
 
-📊 Store and retrieve nutritional information
+Parses recipe data from a JSON file
 
-🗄️ Database integration using Spring Data JPA
+Stores it in a relational database
+
+Provides REST APIs to create and retrieve recipes
 
 🛠️ Tech Stack
 
@@ -35,3 +36,23 @@ MySQL
 Jackson (JSON Parsing)
 
 Maven
+
+
+🚀 API Endpoints
+
+1️⃣ POST /recipes
+✅ Purpose
+
+Add a new recipe to the database.
+
+✅ Validation Rules
+
+The following fields are mandatory:
+
+title
+
+cuisine
+
+prep_time
+
+cook_time
