@@ -50,12 +50,7 @@ public class Recipe {
 
     @JsonProperty("serves")
     private String serves;
-
-    @PrePersist
-    @PreUpdate
-    public void calculateTotalTime() {
-        this.totalTime = this.prepTime + this.cookTime;
-    }
+    
 
     public Long getId() {
         return id;
